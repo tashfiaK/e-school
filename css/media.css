@@ -1,0 +1,224 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+     /*  header  */
+     .btn_header{
+        margin-left: 20px;
+        width: 70px;
+        height: 30px;
+        font-size: 15px;
+        padding: 5px 10px;
+    }
+    /* banner start */
+    .banner {
+        padding: 15px 0 60px;
+    }
+    .b_text {
+        text-align: center;
+    }
+    .b_h1 {
+        margin: 10px 0 10px;
+        padding: 0 15px;
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .b_p2 {
+        padding: 0;
+        line-height: 30px;
+    }
+    .b_img {
+        margin-bottom: 25px;
+        padding: 0 10px;
+    }
+    /* feature start */
+    .feature {
+        padding-top: 21px;
+        padding-bottom:70px;
+    }
+    .s_feature {
+        margin-top: 24px;
+        padding: 55px 45px;
+    }
+    /* courses */
+    .courses {
+        padding-bottom: 70px;
+    }
+    .c_h1 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .c_item {
+        margin-top: 30px;
+        padding: 15px 15px 20px;
+    }
+    .c_h2 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .calender ul li img , .people ul li img {
+        width: 15px !important;
+    }
+    .calender ul li span , .people ul li span{
+        font-size: 15px;
+    }
+ }
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /* header start */
+    .menu ul li a {
+        margin-bottom: 5px;
+        padding: 0 10px !important;
+    }
+    .btn_header {
+        width: 76px;
+        height: 32px;
+        font-size: 15px;
+        padding: 5px 4px;
+    }
+    /* banner start */
+    .banner {
+        padding: 15px 0 60px;
+    }
+    .b_text {
+        text-align: center;
+    }
+    .b_h1 {
+        margin: 10px 0 10px;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .b_p2 {
+        padding: 0 55px;
+        line-height: 30px;
+    }
+    .b_img {
+        margin-bottom: 30px;
+        padding: 0 80px;
+    }
+    /* feature start */
+    .feature {
+        padding-top: 21px;
+        padding-bottom:70px;
+    }
+    .s_feature {
+        margin-top: 24px;
+        padding: 55px 45px;
+        height: 230px;
+    }
+    /* courses */
+    .courses {
+        padding-bottom: 70px;
+    }
+    .c_h1 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .c_item {
+        margin-top: 30px;
+        padding: 15px 15px 20px;
+    }
+    .c_h2 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .c_padding {
+        padding: 0 100px;
+    }
+    .calender ul li img , .people ul li img {
+        width: 15px !important;
+    }
+    .calender ul li span , .people ul li span{
+        font-size: 15px;
+    }
+ }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+        /* header start */
+    /* header start */
+    .menu ul li a {
+        margin-bottom: 10px;
+        padding: 0 10px !important;
+    }
+    /* banner start */
+    .banner {
+        padding: 15px 0 60px;
+    }
+    .b_text {
+        text-align: center;
+    }
+    .b_h1 {
+        margin: 10px 0 10px;
+        font-size: 38px;
+        line-height: 50px;
+    }
+    .b_p2 {
+        padding: 0 100px;
+        line-height: 30px;
+    }
+    .b_img {
+        margin-bottom: 50px;
+        padding: 0 150px;
+    }
+    /* feature start */
+    .feature {
+        padding-top: 21px;
+        padding-bottom: 80px;
+    }
+    .s_feature {
+        margin-top: 24px;
+    }
+    /* courses */
+    .courses {
+        padding-bottom: 80px;
+    }
+    .c_item {
+        margin-top: 40px;
+    }
+    .c_padding {
+        padding: 0 130px;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+    /* courses */
+    .c_item {
+        padding: 25px 20px 30px;
+    }
+    .c_li {
+        margin-right: 6px !important;
+    }
+    .calender ul li  img , .people ul li {
+        /* width: 22 !important; */
+   }
+    .calender ul li span , .people ul li span{
+        font-size: 16px;
+    }
+ }
+
+/* Extra extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) { 
+    /* feature start */
+    .s_feature {
+        padding: 72px 20px;
+    }
+    /* courses */
+    .c_item {
+        padding: 25px 20px 30px;
+    }
+    .c_li {
+        margin-right: 6px !important;
+    }
+    .calender ul li img , .people ul li img {
+        /* width: 24px !important; */
+    }
+    .calender ul li span , .people ul li span{
+        font-size: 16px;
+    }
+}
